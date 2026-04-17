@@ -4,10 +4,6 @@ interface Props {
   children: ReactNode
 }
 
-export default function NotesLayout({ children}: Props) {
-  return (
-    <>
-      {children}
-    </>
-  )
+export default function NotesLayout({ children }: Props) {
+  return <>{children}</>
 }
